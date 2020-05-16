@@ -637,6 +637,7 @@ class MentionsInput extends React.Component {
   }
 
   handleSuggestionsMouseDown = ev => {
+    ev.preventDefault();
     this._suggestionsMouseDown = true
   }
 
